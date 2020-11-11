@@ -4,10 +4,11 @@
 
 int main()
 {
-  int i;
+  int i,j;
   for(i=0;i<5;i++)
   {
-    printf(i);
+    for(j=i;j>0;j--)
+    printf(j);
     }
   return 0;
 }
